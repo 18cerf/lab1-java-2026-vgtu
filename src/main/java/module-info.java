@@ -4,6 +4,6 @@ module org.example.lab1java2026vgtu {
 
     requires org.kordamp.bootstrapfx.core;
 
-    opens org.example.lab1java2026vgtu to javafx.fxml;
-    exports org.example.lab1java2026vgtu;
+    opens org.example.lab1java2026vgtu.converter to javafx.fxml;
+    exports org.example.lab1java2026vgtu.converter;
 }
