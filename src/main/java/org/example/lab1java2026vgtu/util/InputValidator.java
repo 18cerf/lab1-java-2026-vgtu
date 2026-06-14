@@ -1,4 +1,4 @@
-package org.example.lab1java2026vgtu.converter.util;
+package org.example.lab1java2026vgtu.util;
 
 
 /**

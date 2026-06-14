@@ -1,4 +1,4 @@
-package org.example.lab1java2026vgtu.converter.model;
+package org.example.lab1java2026vgtu.model;
 
 /**
  * Модель конвертера.

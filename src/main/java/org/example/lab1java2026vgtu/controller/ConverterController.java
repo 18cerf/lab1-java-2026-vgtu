@@ -1,10 +1,10 @@
-package org.example.lab1java2026vgtu.converter.controller;
+package org.example.lab1java2026vgtu.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import org.example.lab1java2026vgtu.converter.model.ConverterModel;
-import org.example.lab1java2026vgtu.converter.util.InputValidator;
+import org.example.lab1java2026vgtu.model.ConverterModel;
+import org.example.lab1java2026vgtu.util.InputValidator;
 
 import java.net.URL;
 import java.util.ResourceBundle;

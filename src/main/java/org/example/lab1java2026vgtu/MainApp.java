@@ -1,4 +1,4 @@
-package org.example.lab1java2026vgtu.converter;
+package org.example.lab1java2026vgtu;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

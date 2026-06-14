@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527b84d3-93ac-4131-abf8-3108e9fd532c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/controller/ConverterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/model/ConverterModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/util/InputValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/lab1java2026vgtu/ConverterView.fxml" afterDir="false" />
+    <list default="true" id="527b84d3-93ac-4131-abf8-3108e9fd532c" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/lab1java2026vgtu/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/controller/ConverterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/controller/ConverterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/model/ConverterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/model/ConverterModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/util/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/util/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/lab1java2026vgtu/ConverterView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/lab1java2026vgtu/ConverterView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -87,7 +87,8 @@
   "keyToString": {
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "Gradle.lab1-java-2026-vgtu [:org.example.lab1java2026vgtu.Launcher.main()].executor": "Run",
-    "Gradle.lab1-java-2026-vgtu [:org.example.lab1java2026vgtu.converter.MainApp.main()].executor": "Debug",
+    "Gradle.lab1-java-2026-vgtu [:org.example.lab1java2026vgtu.MainApp.main()].executor": "Run",
+    "Gradle.lab1-java-2026-vgtu [:org.example.lab1java2026vgtu.converter.MainApp.main()].executor": "Run",
     "Gradle.lab1-java-2026-vgtu [clean build].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -112,7 +113,7 @@
       <command value="gradle clean build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
+  <component name="RunManager" selected="Gradle.lab1-java-2026-vgtu [run]">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.lab1java2026vgtu.Launcher" />
       <module name="lab1-java-2026-vgtu.main" />
@@ -132,6 +133,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.lab1java2026vgtu.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.lab1java2026vgtu.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lab1java2026vgtu.MainApp" />
+      <module name="lab1-java-2026-vgtu.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lab1java2026vgtu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,8 +179,35 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="lab1-java-2026-vgtu [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.lab1-java-2026-vgtu [run]" />
+        <item itemvalue="Application.org.example.lab1java2026vgtu.MainApp" />
         <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Gradle.lab1-java-2026-vgtu [clean build]" />
@@ -183,18 +224,31 @@
       <workItem from="1781458760265" duration="28000" />
       <workItem from="1781458799605" duration="96000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1781460483089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781460483089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/MainApp.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/MainApp.java</url>
           <line>28</line>
-          <properties class="org.example.lab1java2026vgtu.converter.MainApp" method="main">
+          <properties class="org.example.lab1java2026vgtu.MainApp" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
