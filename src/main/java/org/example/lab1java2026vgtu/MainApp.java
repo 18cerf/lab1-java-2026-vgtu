@@ -6,30 +6,24 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.kordamp.bootstrapfx.BootstrapFX;
 
-/**
- * Главный класс приложения JavaFX.
- */
 public class MainApp extends Application {
 
-    /**
-     * Запуск приложения.
-     */
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/ConverterView.fxml"));
-        Scene scene = new Scene(loader.load(), 400, 300);
 
-        // подключаем BootstrapFX
+        FXMLLoader loader = new FXMLLoader(
+                getClass().getResource("/ConverterView.fxml")
+        );
+
+        Scene scene = new Scene(loader.load(), 450, 300);
+
         scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
 
-        stage.setTitle("MVC Converter");
+        stage.setTitle("Time Converter (MVC)");
         stage.setScene(scene);
         stage.show();
     }
 
-    /**
-     * Точка входа.
-     */
     public static void main(String[] args) {
         launch();
     }

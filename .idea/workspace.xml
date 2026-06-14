@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527b84d3-93ac-4131-abf8-3108e9fd532c" name="Changes" comment="запускается с помощью gradle run">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="527b84d3-93ac-4131-abf8-3108e9fd532c" name="Changes" comment="добавление документации" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +238,31 @@
       <option name="project" value="LOCAL" />
       <updated>1781461066461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавление документации">
+      <option name="closed" value="true" />
+      <created>1781462231328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462231328</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавление документации">
+      <option name="closed" value="true" />
+      <created>1781462316386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462316386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавление документации">
+      <option name="closed" value="true" />
+      <created>1781462408138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781462408138</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +282,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="запускается с помощью gradle run" />
-    <option name="LAST_COMMIT_MESSAGE" value="запускается с помощью gradle run" />
+    <MESSAGE value="добавление документации" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление документации" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

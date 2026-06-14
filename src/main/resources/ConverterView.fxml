@@ -9,25 +9,20 @@
       fx:controller="org.example.lab1java2026vgtu.controller.ConverterController"
       styleClass="container">
 
-    <Label text="Конвертер единиц измерения"
+    <Label text="Конвертер даты и времени"
            styleClass="h3"/>
 
     <TextField fx:id="inputField"
-               promptText="Введите число"
+               promptText="DATE_TIME / UNIX / HUMAN"
                styleClass="form-control"
-               maxWidth="200"/>
+               maxWidth="250"/>
 
     <HBox spacing="10" alignment="CENTER">
 
-        <ComboBox fx:id="fromBox"
-                  styleClass="form-select"
-                  prefWidth="80"/>
+        <ComboBox fx:id="fromBox" prefWidth="120"/>
+        <Label text="→"/>
+        <ComboBox fx:id="toBox" prefWidth="120"/>
 
-        <Label text="→" styleClass="lead"/>
-
-        <ComboBox fx:id="toBox"
-                  styleClass="form-select"
-                  prefWidth="80"/>
     </HBox>
 
     <Button text="Конвертировать"
@@ -35,10 +30,8 @@
             styleClass="btn btn-primary"/>
 
     <Label fx:id="resultLabel"
-           text="Результат:"
            styleClass="text-success h5"/>
 
     <Label fx:id="errorLabel"
-           textFill="red"
            styleClass="text-danger"/>
 </VBox>

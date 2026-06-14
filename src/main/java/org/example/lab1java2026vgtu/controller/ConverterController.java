@@ -9,10 +9,6 @@ import org.example.lab1java2026vgtu.util.InputValidator;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
- * Контроллер конвертера.
- * Связывает интерфейс и модель.
- */
 public class ConverterController implements Initializable {
 
     @FXML
@@ -32,46 +28,40 @@ public class ConverterController implements Initializable {
 
     private final ConverterModel model = new ConverterModel();
 
-    /**
-     * Инициализация интерфейса.
-     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        fromBox.getItems().addAll("cm", "m", "km");
-        toBox.getItems().addAll("cm", "m", "km");
 
-        fromBox.setValue("m");
-        toBox.setValue("cm");
+        fromBox.getItems().addAll("DATE_TIME", "UNIX", "HUMAN");
+        toBox.getItems().addAll("DATE_TIME", "UNIX", "HUMAN");
+
+        fromBox.setValue("DATE_TIME");
+        toBox.setValue("UNIX");
     }
 
-    /**
-     * Обработка кнопки конвертации.
-     */
     @FXML
     public void handleConvert() {
+
         String input = inputField.getText();
 
         errorLabel.setText("");
+        resultLabel.setText("");
 
         if (InputValidator.isEmpty(input)) {
-            errorLabel.setText("Поле пустое");
+            errorLabel.setText("Пустое поле");
             return;
         }
 
-        if (!InputValidator.isNumeric(input)) {
-            errorLabel.setText("Введите число");
-            return;
+        try {
+            String result = model.convert(
+                    input,
+                    fromBox.getValue(),
+                    toBox.getValue()
+            );
+
+            resultLabel.setText(result);
+
+        } catch (Exception e) {
+            errorLabel.setText("Ошибка: " + e.getMessage());
         }
-
-        double value = Double.parseDouble(input);
-
-        if (!InputValidator.isPositive(input)) {
-            errorLabel.setText("Число должно быть > 0");
-            return;
-        }
-
-        double result = model.convert(value, fromBox.getValue(), toBox.getValue());
-
-        resultLabel.setText("Результат: " + result);
     }
 }
