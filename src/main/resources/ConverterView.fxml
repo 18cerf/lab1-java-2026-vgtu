@@ -3,24 +3,42 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox spacing="10" alignment="CENTER"
+<VBox spacing="12" alignment="CENTER"
       xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.lab1java2026vgtu.controller.ConverterController">
+      fx:controller="org.example.lab1java2026vgtu.controller.ConverterController"
+      styleClass="container">
 
-    <Label text="Конвертер единиц измерения"/>
+    <Label text="Конвертер единиц измерения"
+           styleClass="h3"/>
 
-    <TextField fx:id="inputField" promptText="Введите число"/>
+    <TextField fx:id="inputField"
+               promptText="Введите число"
+               styleClass="form-control"
+               maxWidth="200"/>
 
     <HBox spacing="10" alignment="CENTER">
-        <ComboBox fx:id="fromBox"/>
-        <Label text="→"/>
-        <ComboBox fx:id="toBox"/>
+
+        <ComboBox fx:id="fromBox"
+                  styleClass="form-select"
+                  prefWidth="80"/>
+
+        <Label text="→" styleClass="lead"/>
+
+        <ComboBox fx:id="toBox"
+                  styleClass="form-select"
+                  prefWidth="80"/>
     </HBox>
 
-    <Button text="Конвертировать" onAction="#handleConvert"/>
+    <Button text="Конвертировать"
+            onAction="#handleConvert"
+            styleClass="btn btn-primary"/>
 
-    <Label fx:id="resultLabel" text="Результат:"/>
-    <Label fx:id="errorLabel" textFill="red"/>
+    <Label fx:id="resultLabel"
+           text="Результат:"
+           styleClass="text-success h5"/>
 
+    <Label fx:id="errorLabel"
+           textFill="red"
+           styleClass="text-danger"/>
 </VBox>

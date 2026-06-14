@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527b84d3-93ac-4131-abf8-3108e9fd532c" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/controller/ConverterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/controller/ConverterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/model/ConverterModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/model/ConverterModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/converter/util/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/util/InputValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/lab1java2026vgtu/ConverterView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/lab1java2026vgtu/ConverterView.fxml" afterDir="false" />
+    <list default="true" id="527b84d3-93ac-4131-abf8-3108e9fd532c" name="Changes" comment="запускается с помощью gradle run">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lab1java2026vgtu/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +82,7 @@
     "Gradle.lab1-java-2026-vgtu [:org.example.lab1java2026vgtu.MainApp.main()].executor": "Run",
     "Gradle.lab1-java-2026-vgtu [:org.example.lab1java2026vgtu.converter.MainApp.main()].executor": "Run",
     "Gradle.lab1-java-2026-vgtu [clean build].executor": "Run",
+    "Gradle.lab1-java-2026-vgtu [run].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -111,6 +104,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle clean build" />
+      <command value="gradle run" />
     </option>
   </component>
   <component name="RunManager" selected="Gradle.lab1-java-2026-vgtu [run]">
@@ -232,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781460483089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="запускается с помощью gradle run">
+      <option name="closed" value="true" />
+      <created>1781461066461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781461066461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +242,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="запускается с помощью gradle run" />
+    <option name="LAST_COMMIT_MESSAGE" value="запускается с помощью gradle run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
